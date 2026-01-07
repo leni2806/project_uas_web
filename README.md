@@ -146,6 +146,26 @@ if (!$conn) {
 9. tampilan hapus barang (admin)
 <img src="img/hapus.png" width="450">
 
+## 🌐 Deployment / Hosting Aplikasi
+
+Aplikasi ini tidak hanya dijalankan secara lokal menggunakan XAMPP, tetapi juga telah dideploy ke layanan hosting gratis untuk keperluan demonstrasi dan pengujian online.
+
+### Detail Hosting
+- **Penyedia Hosting:** InfinityFree
+- **Jenis Hosting:** Free PHP & MySQL Hosting
+- **Domain:** https://uasleni.infinityfreeapp.com
+- **Server:** Apache (PHP 7.x)
+
+### Konfigurasi Hosting
+Beberapa penyesuaian dilakukan saat proses deployment, antara lain:
+- Upload seluruh file project ke direktori `htdocs` hosting melalui File Manager / FTP.
+- Membuat database MySQL melalui Control Panel InfinityFree.
+- Mengubah konfigurasi database pada file `config/database.php` sesuai kredensial hosting.
+- Mengaktifkan routing menggunakan file `.htaccess`.
+
+Dengan adanya hosting ini, aplikasi dapat diakses secara online tanpa perlu menjalankan server lokal.
+
+
 
 ## 📥 Cara Instalasi
 
