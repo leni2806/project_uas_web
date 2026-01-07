@@ -62,7 +62,7 @@ Aplikasi ini merupakan sistem manajemen data barang berdasarkan project praktiku
 - `modules/auth/logout.php`: Digunakan untuk proses keluar (logout) pengguna dari sistem.
 - `dashboard.php`:halaman utama setelah login yang berfungsi sebagai pusat kontrol atau ringkasan informasi untuk pengguna.
 - `index.php`:Halaman utama dari aplikasi/web. Bisa diakses langsung dari browser tanpa harus masuk ke modul lain.
-- `assets/style.css`: File CSS custom dengan tema pink untuk styling aplikasi.
+- `assets/style.css`: File CSS custom tema pastel / netral untuk styling aplikasi.
 
 
 ## 🚀 **Fitur Utama**
@@ -161,7 +161,7 @@ if (!$conn) {
    - Import file SQL `uas_makeup.sql` ke dalam database.
    - Copy folder project ke dalam direktori `htdocs` di XAMPP.
    - Buka browser dan akses `http://localhost/project_uas/modules/auth/login.php`.
-```
+
 ## 🔐 Akun Demo
 
 Admin:
