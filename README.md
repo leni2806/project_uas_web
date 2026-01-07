@@ -77,8 +77,9 @@ Aplikasi ini merupakan sistem manajemen data barang berdasarkan project praktiku
 ```
 
 ## Kode Utama: 
+Contoh kode koneksi database (`config/database.php`):
+
 ```php
-// Contoh kode untuk koneksi database (config/database.php)
 <?php
 $host = "localhost";
 $user = "root";
@@ -90,8 +91,9 @@ $conn = mysqli_connect($host, $user, $pass, $db);
 if (!$conn) {
     die("Koneksi database gagal: " . mysqli_connect_error());
 }
-
 ```
+
+
 
 ## 🛠️ **Teknologi yang Digunakan**
 
@@ -163,5 +165,20 @@ if (!$conn) {
    - Copy folder project ke dalam direktori `htdocs` di XAMPP.
    - Buka browser dan akses `http://localhost/project_uas/modules/auth/login.php`.
 ```
+## 🔐 Akun Demo
+
+Admin:
+- Username: admin
+- Password: admin123
+
+User:
+- Username: user
+- Password: user123
+
+## 🎥 Video Dokumentasi
+
+Link Video Demo Aplikasi:
+https://youtu.be/xxxxx
+
 
 
