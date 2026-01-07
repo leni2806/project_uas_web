@@ -1,4 +1,5 @@
-# 🌐 UAS PEMOGRAMAN WEB
+# 🌐 UAS PEMROGRAMAN WEB
+
 🏫 **Universitas Pelita Bangsa**
 
 💐 **Nama:** Leni
@@ -45,10 +46,9 @@ PROJECT_UAS/
 ```
 
 ## 📄 **Deskripsi Singkat Project**
-Aplikasi ini merupakan sistem manajemen data barang berdasarkan project praktikum OOP dan Modular menggunakan Routing App (gunakan .htaccess) dan dilengkapi dengan fitur pagination, pencarian, dan CRUD 
-(Create, Read, Update, Delete). Aplikasi ini menggunakan PHP dan MySQL untuk mengelola data barang beserta gambar produknya.
+Aplikasi ini merupakan sistem manajemen data barang berdasarkan project praktikum OOP dan Modular menggunakan Routing App (gunakan .htaccess) dan dilengkapi dengan fitur pagination, pencarian, dan CRUD (Create, Read, Update, Delete). Aplikasi ini menggunakan PHP dan MySQL untuk mengelola data barang beserta gambar produknya.
 
-```
+
 ## Penjelasan Fungsi File
 - `config/database.php`: File ini berisi konfigurasi untuk menghubungkan aplikasi dengan database MySQL.
 - `data/barang.php`: Menampilkan daftar barang dengan opsi pagination.
@@ -59,13 +59,11 @@ Aplikasi ini merupakan sistem manajemen data barang berdasarkan project praktiku
 - `layout/footer.php`: Bagian footer halaman yang menutup tag HTML dan memuat JS.
 - `images/`: Folder untuk menyimpan gambar barang yang diupload.
 - `modules/auth/login.php`: Digunakan untuk proses masuk (login) pengguna ke sistem.
-- `modules/auth/logout.php`: Digunakan untuk proses masuk (login) pengguna ke sistem.
+- `modules/auth/logout.php`: Digunakan untuk proses keluar (logout) pengguna dari sistem.
 - `dashboard.php`:halaman utama setelah login yang berfungsi sebagai pusat kontrol atau ringkasan informasi untuk pengguna.
-- `indexphp`:Halaman utama dari aplikasi/web. Bisa diakses langsung dari browser tanpa harus masuk ke modul lain.
+- `index.php`:Halaman utama dari aplikasi/web. Bisa diakses langsung dari browser tanpa harus masuk ke modul lain.
 - `assets/style.css`: File CSS custom dengan tema pink untuk styling aplikasi.
 
-
-```
 
 ## 🚀 **Fitur Utama**
 - **Pagination:** Menampilkan data barang dalam halaman yang terpisah untuk memudahkan navigasi.
@@ -74,9 +72,10 @@ Aplikasi ini merupakan sistem manajemen data barang berdasarkan project praktiku
 - **Pencarian:** Memudahkan pencarian barang berdasarkan nama atau kategori.
 - **Modular**: Buat file/fungsi terpisah misal modules/pagination/Pagination.php
 - **OOP**: Buat class Pagination
-```
+
 
 ## Kode Utama: 
+
 Contoh kode koneksi database (`config/database.php`):
 
 ```php
@@ -113,9 +112,7 @@ if (!$conn) {
 
 - Pagination & Search → menampilkan data rapi dan memudahkan pencarian
 
-```
 
-```
 
 ## Screenshot Implementasi
 
@@ -178,7 +175,8 @@ User:
 ## 🎥 Video Dokumentasi
 
 Link Video Demo Aplikasi:
-https://youtu.be/xxxxx
+(Link akan ditambahkan)
+
 
 
 
