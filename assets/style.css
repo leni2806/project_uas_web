@@ -1,0 +1,81 @@
+/* ===== ROOT COLOR ===== */
+:root {
+    --pink: #ff65a3;
+    --pink-soft: #ffe6f0;
+    --purple: #cda4ff;
+    --purple-soft: #f2e6ff;
+    --text: #5a0033;
+}
+
+/* ===== GLOBAL ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, var(--pink-soft), var(--purple-soft));
+    color: var(--text);
+    min-height: 100vh;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: linear-gradient(90deg, var(--purple), var(--pink));
+}
+.navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+/* ===== DASHBOARD CARD (INI YANG DIPAKAI) ===== */
+.dashboard-card {
+    background: linear-gradient(135deg, #ffe6f0, #f2e6ff);
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(255, 154, 198, 0.3);
+    transition: 0.3s;
+}
+.dashboard-card:hover {
+    transform: translateY(-6px);
+}
+
+/* ===== BUTTON CUSTOM ===== */
+.btn-pink {
+    background: linear-gradient(135deg, #ff9ac6, #ff65a3);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+.btn-pink:hover {
+    background: linear-gradient(135deg, #ff65a3, #ff3f8f);
+}
+
+.btn-purple {
+    background: linear-gradient(135deg, #cda4ff, #b58cff);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+.btn-purple:hover {
+    background: linear-gradient(135deg, #b58cff, #9f6bff);
+}
+
+.btn-pink-soft {
+    background: #ffe0f0;
+    color: #a00050;
+    border-radius: 30px;
+}
+.btn-pink-soft:hover {
+    background: #ffb3d1;
+    color: #fff;
+}
+
+/* ===== TABLE & FORM ===== */
+.card,
+.table,
+.form-control {
+    border-radius: 16px;
+}
+
+.text-muted {
+    color: #8b4a6b !important;
+}
