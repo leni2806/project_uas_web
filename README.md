@@ -103,8 +103,6 @@ if (!$conn) {
 
 - Bootstrap → styling dan layout responsif
 
-- JavaScript / jQuery → interaksi halaman tanpa reload (misal live search, konfirmasi delete)
-
 - PDO / MySQLi → koneksi database aman dengan prepared statements
 
 - Session Management → untuk login/logout dan keamanan user
