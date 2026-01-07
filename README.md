@@ -195,7 +195,7 @@ User:
 ## 🎥 Video Dokumentasi
 
 Link Video Demo Aplikasi:
-(Link akan ditambahkan)
+(https://youtu.be/E7DxbOCIGvE?si=v78HhLIvvA3IYRLu)
 
 
 
